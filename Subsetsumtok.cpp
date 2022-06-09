@@ -14,8 +14,8 @@ void help(int input[], int size, int k ,vector<int> ans)
         return;
     }
     help(input+1,size-1,k,ans);//not including
-    ans.push_back(input[0]);
-    help(input+1,size-1,k-input[0],ans);// including                             
+    ans.push_back(input[0]); 
+    help(input+1,size-1,k-input[0],ans);// including          //sub subsets with sum equal to k will be inserted into the ans vector                   
     return;
 }
 void printSubsetSumToK(int input[], int size, int k) {
