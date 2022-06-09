@@ -1,3 +1,5 @@
+//Assume that the value of a = 1, b = 2, c = 3, ... , z = 26. You are given a numeric string S
+// Write a program to print the list of all possible codes that can be generated from the given string.
 #include <iostream>
 using namespace std;
 #include <string.h>
